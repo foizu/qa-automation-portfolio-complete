@@ -1,3 +1,10 @@
-# Playwright Python Project
+# Playwright Python Automation
 
-UI automation using Playwright and Pytest.
+Automated UI tests using Playwright and Pytest for modern web apps.
+
+## ▶️ How to Run
+
+```bash
+pip install -r requirements.txt
+playwright install
+pytest tests/test_login.py
